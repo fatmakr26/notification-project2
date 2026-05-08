@@ -3,13 +3,11 @@ package com.example.notification;
 public class Main {
     public static void main(String[] args) {
 
-        Notification n1 = NotificationFactory.create("email");
-        n1.send("Hello Email!");
+        NotificationFacade facade = new NotificationFacade();
+        facade.send("email", "Hello Email!");
+        facade.send("sms", "Hello SMS!");
 
-        Notification n2 = NotificationFactory.create("sms");
-        n2.send("Hello SMS!");
-
-        Notification n3 = NotificationFactory.create("push");
-        n3.send("Hello Push!");
+        Notification adapter = new EmailAdapter(new ThirdPartyEmailService());
+        adapter.send("Adapter email message");
     }
 }
