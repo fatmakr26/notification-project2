@@ -11,4 +11,4 @@ public class EmailAdapter implements Notification {
     public void send(String message) {
         service.sendEmail(message);
     }
-}
+} 
