@@ -15,13 +15,15 @@ jobs:
       - name: Java kurulumu
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
-          java-version: 17
+          distribution: 'temurin'
+          java-version: '17'
 
       - name: Java dosyalarını derle
-        # -sourcepath kullanarak paket yapısını Java'ya tanıtıyoruz
-        run: javac -sourcepath src -d out src/com/example/notification/*.java
+        # Find komutu ile src içindeki tüm Java dosyalarını bulup derliyoruz
+        run: |
+          find src -name "*.java" > sources.txt
+          javac -d out @sources.txt
 
       - name: Programı çalıştır
-        # Derlenen dosyaları 'out' klasöründen paket ismiyle çağırıyoruz
+        # Paket isminle beraber çalıştırıyoruz
         run: java -cp out com.example.notification.Main
