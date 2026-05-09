@@ -3,11 +3,19 @@ package com.example.notification;
 public class Main {
     public static void main(String[] args) {
 
-        NotificationFacade facade = new NotificationFacade();
-        facade.send("email", "Hello Email!");
-        facade.send("sms", "Hello SMS!");
+        Notification notif = NotificationFactory.create("push");
 
-        Notification adapter = new EmailAdapter(new ThirdPartyEmailService());
-        adapter.send("Adapter email message");
+        NotificationContext context = new NotificationContext(new InstantSendStrategy());
+        context.send(notif, "Instant message");
+
+        context.setStrategy(new DelayedSendStrategy());
+        context.send(notif, "Delayed message");
+
+        NotificationPublisher publisher = new NotificationPublisher();
+
+        publisher.subscribe(new User("Fatma"));
+        publisher.subscribe(new User("Sevil"));
+
+        publisher.notifyAllUsers("New campaign!");
     }
 }
