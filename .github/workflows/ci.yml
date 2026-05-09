@@ -2,7 +2,9 @@ name: Java CI
 
 on:
   push:
+    branches: [ "main", "master" ]
   pull_request:
+    branches: [ "main", "master" ]
 
 jobs:
   build:
@@ -15,26 +17,13 @@ jobs:
       - name: Java kurulumu
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
-          java-version: 17
-
-      - name: Java dosyalarını derle
-        run: javac *.java
-
-steps:
-      - name: Repository indir
-        uses: actions/checkout@v4
-
-      - name: Java kurulumu
-        uses: actions/setup-java@v4
-        with:
           distribution: 'temurin'
           java-version: '17'
 
       - name: Java dosyasını derle
-
+        # Dosyan src klasöründe olduğu için yolunu belirttik
         run: javac src/Main.java
 
       - name: Programı çalıştır
- 
+        # Derlenen sınıfı src içinden bularak çalıştırır
         run: java -cp src Main
