@@ -1,0 +1,29 @@
+name: Java CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository indir
+        uses: actions/checkout@v4
+
+      - name: Java kurulumu
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Java dosyalarını derle
+       
+        run: |
+          find src -name "*.java" > sources.txt
+          javac -d out @sources.txt
+
+      - name: Programı çalıştır
+        
+        run: java -cp out com.example.notification.Main
