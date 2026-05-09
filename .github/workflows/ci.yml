@@ -19,11 +19,11 @@ jobs:
           java-version: '17'
 
       - name: Java dosyalarını derle
-        # Find komutu ile src içindeki tüm Java dosyalarını bulup derliyoruz
+       
         run: |
           find src -name "*.java" > sources.txt
           javac -d out @sources.txt
 
       - name: Programı çalıştır
-        # Paket isminle beraber çalıştırıyoruz
+        
         run: java -cp out com.example.notification.Main
