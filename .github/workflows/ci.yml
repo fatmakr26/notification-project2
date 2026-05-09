@@ -20,10 +20,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Java dosyasını derle
-
-        run: javac src/Main.java
+      - name: Java dosyalarını derle
+        # src içindeki tüm dosyaları (Main, Notification, vb.) derler
+        run: javac src/*.java
 
       - name: Programı çalıştır
-      
-        run: java -cp src Main
+        # Paket ismi com.example.notification olduğu için 
+        # Java'ya 'src' klasörünü ana dizin olarak gösterip tam paket adıyla çağırıyoruz
+        run: java -cp src com.example.notification.Main
