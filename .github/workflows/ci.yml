@@ -2,9 +2,7 @@ name: Java CI
 
 on:
   push:
-    branches: [ "main", "master" ]
   pull_request:
-    branches: [ "main", "master" ]
 
 jobs:
   build:
@@ -12,16 +10,13 @@ jobs:
 
     steps:
       - name: Repository indir
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Java kurulumu
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          distribution: temurin
+          java-version: 17
 
       - name: Java dosyalarını derle
-        run: javac src/*.java
-
-      - name: Programı çalıştır
-        run: java -cp src com.example.notification.Main
+        run: javac *.java
