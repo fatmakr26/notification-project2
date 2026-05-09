@@ -10,13 +10,18 @@ jobs:
 
     steps:
       - name: Repository indir
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Java kurulumu
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
 
       - name: Java dosyalarını derle
-        run: javac *.java
+        # src içindeki tüm dosyaları derlemek için yolu belirttik
+        run: javac src/com/example/notification/*.java
+
+      - name: Programı çalıştır
+        # Paket isminle beraber çalıştırıyoruz
+        run: java -cp src com.example.notification.Main
