@@ -20,4 +20,3 @@ jobs:
 
       - name: Java dosyalarını derle
         run: javac *.java
-
