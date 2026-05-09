@@ -21,4 +21,3 @@ jobs:
       - name: Java dosyalarını derle
         run: javac *.java
 
-ci: add GitHub Actions pipeline
