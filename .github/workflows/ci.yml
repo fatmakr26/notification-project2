@@ -19,9 +19,9 @@ jobs:
           java-version: 17
 
       - name: Java dosyalarını derle
-        # src içindeki tüm dosyaları derlemek için yolu belirttik
-        run: javac src/com/example/notification/*.java
+        # -sourcepath kullanarak paket yapısını Java'ya tanıtıyoruz
+        run: javac -sourcepath src -d out src/com/example/notification/*.java
 
       - name: Programı çalıştır
-        # Paket isminle beraber çalıştırıyoruz
-        run: java -cp src com.example.notification.Main
+        # Derlenen dosyaları 'out' klasöründen paket ismiyle çağırıyoruz
+        run: java -cp out com.example.notification.Main
