@@ -20,3 +20,21 @@ jobs:
 
       - name: Java dosyalarını derle
         run: javac *.java
+
+steps:
+      - name: Repository indir
+        uses: actions/checkout@v4
+
+      - name: Java kurulumu
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Java dosyasını derle
+
+        run: javac src/Main.java
+
+      - name: Programı çalıştır
+ 
+        run: java -cp src Main
