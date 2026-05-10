@@ -70,3 +70,14 @@ Bildirim gönderildiğinde kullanıcıların otomatik haberdar edilmesi için ku
 ## Kazanımlar
 - Gevşek bağlı yapı
 - Dinamik abonelik sistemi
+
+##UML oncesi/sonrası
+
+<img width="641" height="228" alt="uml_oncesi_diyagramı" src="https://github.com/user-attachments/assets/23b4f291-bc7a-46c5-80b0-a8205e82c9ea" />
+
+
+<img width="636" height="394" alt="uml_sonrası_diyagramı" src="https://github.com/user-attachments/assets/49d4f04e-1283-4252-b170-66c101f9eb73" />
+
+
+
+
