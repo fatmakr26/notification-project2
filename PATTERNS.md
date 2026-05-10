@@ -71,16 +71,16 @@ Bildirim gönderildiğinde kullanıcıların otomatik haberdar edilmesi için ku
 - Gevşek bağlı yapı
 - Dinamik abonelik sistemi
 
-##UML diyagramı
+## UML diyagramı
 
 oncesi
 
-<img width="641" alt="uml_oncesi_diyagramı" src="./docs/diagrams/phase1_before.png" />
+<img width="641" alt="uml_oncesi_diyagramı" src="phase1_before.png" />
 
 
 sonrası
 
-<img width="636" alt="uml_sonrası_diyagramı" src="./docs/diagrams/uml_diyagramı.PNG" />
+<img width="636" alt="uml_sonrası_diyagramı" src="uml_diyagramı.PNG" />
 
 
 
