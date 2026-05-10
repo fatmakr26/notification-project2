@@ -75,12 +75,14 @@ Bildirim gönderildiğinde kullanıcıların otomatik haberdar edilmesi için ku
 
 oncesi
 
-<img width="641" alt="uml_oncesi_diyagramı" src="phase1_before.png" />
+<img width="641" height="228" alt="uml_oncesi_diyagramı" src="https://github.com/user-attachments/assets/c06283c7-3bef-420d-bdee-ab5bb5c82ded" />
+
 
 
 sonrası
 
-<img width="636" alt="uml_sonrası_diyagramı" src="uml_diyagramı.PNG" />
+<img width="636" height="394" alt="uml_sonrası_diyagramı" src="https://github.com/user-attachments/assets/3051bc85-89b7-4d30-b762-68e00c791343" />
+
 
 
 
