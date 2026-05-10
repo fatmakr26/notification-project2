@@ -29,7 +29,8 @@ Projede üç ana kategoride toplam 5 farklı tasarım örüntüsü uygulanmışt
 ## 📊 Mimari Diyagram
 Aşağıdaki görsel, projenin son halindeki tüm sınıfların ve örüntülerin birbirleriyle olan ilişkisini göstermektedir:
 
-![UML Diyagramı](docs/diagrams/faz3_final_uml.png)
+<img width="1054" height="692" alt="mimari_diyagramı" src="https://github.com/user-attachments/assets/13a2b87b-f30a-480f-8793-7c49f708474d" />
+
 
 ## ⚙️ Nasıl Çalıştırılır? (How to Run)
 1. Projeyi bilgisayarınıza klonlayın.
