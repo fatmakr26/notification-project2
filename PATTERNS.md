@@ -72,6 +72,7 @@ Bildirim gönderildiğinde kullanıcıların otomatik haberdar edilmesi için ku
 - Dinamik abonelik sistemi
 
 ##UML diyagramı
+
 oncesi
 
 <img width="641" height="228" alt="uml_oncesi_diyagramı" src="https://github.com/user-attachments/assets/23b4f291-bc7a-46c5-80b0-a8205e82c9ea" />
