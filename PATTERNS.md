@@ -9,3 +9,8 @@
 - **Nerede:** `EmailAdapter` ve `ThirdPartyEmailService` sınıflarında.
 - **Neden:** Mevcut sisteme uymayan dış servisleri (Third Party) sisteme entegre etmek için.
 - **Kazanım:** Mevcut yapıyı bozmadan dış servislerle uyumluluk sağlandı.
+
+
+## UML 
+
+<img width="739" height="663" alt="uml_diyagramı_faz2" src="https://github.com/user-attachments/assets/4ff330b6-2889-401a-9709-ae3317cfbb69" />
