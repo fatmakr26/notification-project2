@@ -32,9 +32,3 @@ Projede üç ana kategoride toplam 5 farklı tasarım örüntüsü uygulanmışt
 2. `src/com/example/notification` klasöründeki dosyaları Java derleyicisi ile derleyin.
 3. Uygulamanın giriş noktası olan **Main.java** dosyasını çalıştırın.
 
----
-
-### 👤 Geliştirici
-* **İsim:** Fatma
-* **Bölüm:** Yazılım Mühendisliği 2. Sınıf
-* **Teslim Tarihi:** 15 Mayıs 2026
