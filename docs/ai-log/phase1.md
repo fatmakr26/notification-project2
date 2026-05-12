@@ -1,4 +1,4 @@
-## PHASE  AI LOG
+## PHASE 1 AI LOG
 
 **AI’a Sorulan Soru**
 
