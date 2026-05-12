@@ -6,3 +6,4 @@ public class SMSNotification implements Notification {
         System.out.println("SMS gönderildi: " + message);
     }
 }
+
