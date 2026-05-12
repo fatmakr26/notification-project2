@@ -6,3 +6,4 @@ public class EmailNotification implements Notification {
         System.out.println("Email gönderildi: " + message);
     }
 }
+
