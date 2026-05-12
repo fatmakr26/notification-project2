@@ -12,3 +12,4 @@ public class EmailAdapter implements Notification {
         service.sendEmail(message);
     }
 } 
+
