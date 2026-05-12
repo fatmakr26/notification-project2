@@ -6,7 +6,7 @@ Başlangıçta tüm bildirim işlemleri tek bir sınıfta yapılmaktadır.
 
 ### Tespit Edilen Problemler
 
-1. **God Class **
+1. **God Class**
    - Tüm bildirim türleri (Email, SMS, Push) tek sınıfta toplanmış.
    - Bu durum bakım ve okunabilirliği zorlaştırır.
 
