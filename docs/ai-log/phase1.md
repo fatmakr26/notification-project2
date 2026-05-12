@@ -1,4 +1,6 @@
-## AI’a Sorulan Soru
+## PHASE 1 AI LOG
+
+**AI’a Sorulan Soru**
 
 "Bu projede nesne oluşturma problemini çözmek için hangi design pattern uygundur?"
 
