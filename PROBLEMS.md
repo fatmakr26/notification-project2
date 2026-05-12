@@ -6,7 +6,7 @@ Başlangıçta tüm bildirim işlemleri tek bir sınıfta yapılmaktadır.
 
 ### Tespit Edilen Problemler
 
-1. **God Class (Tanrı Sınıfı)**
+1. **God Class **
    - Tüm bildirim türleri (Email, SMS, Push) tek sınıfta toplanmış.
    - Bu durum bakım ve okunabilirliği zorlaştırır.
 
@@ -25,7 +25,7 @@ Başlangıçta tüm bildirim işlemleri tek bir sınıfta yapılmaktadır.
    - Sınıf doğrudan tüm bildirim tiplerine bağımlı.
    - Esnek değil, genişletilebilir değil.
 
----
+
 
 ## AI Analizi
 
@@ -36,7 +36,7 @@ Başlangıçta tüm bildirim işlemleri tek bir sınıfta yapılmaktadır.
 
 ### Benim analizim:
 - AI ile büyük ölçüde aynı
-- Ek olarak God Class problemini ben özellikle fark ettim
+- Benim analizimde ise özellikle if-else bağımlılığı, OCP ihlali ve genişletilebilirlik problemleri olduğunu tespit ettim
 
 ### Farklar:
 - AI daha çok pattern önerdi
