@@ -6,3 +6,4 @@ public class InstantSendStrategy implements SendStrategy {
         notification.send(message);
     }
 }
+
