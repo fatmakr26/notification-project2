@@ -12,3 +12,4 @@ public class User implements Observer {
         System.out.println(name + " received: " + message);
     }
 }
+
