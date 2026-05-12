@@ -6,3 +6,4 @@ public class PushNotification implements Notification {
         System.out.println("Push notification gönderildi: " + message);
     }
 }
+
