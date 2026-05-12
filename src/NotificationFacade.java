@@ -6,3 +6,4 @@ public class NotificationFacade {
         n.send(message);
     }
 }
+
