@@ -1,11 +1,7 @@
-# 🏗 Notification System - Full Design Patterns Project
-
-Bu proje, bir yazılımın "if-else" yığınından profesyonel tasarım örüntülerine geçiş sürecini kapsayan 2025-2026 Güz/Bahar dönemi Yazılım Tasarım Örüntüleri bireysel ödevidir.
-
-## 📝 Projenin Amacı
+## Projenin Amacı
 Sistem; E-posta, SMS ve Push bildirimlerini yönetir. Temel amacı, tasarım örüntülerini soyut bir kavram olarak değil, "önce acıyı hissedip sonra çözümü uygulamak" felsefesiyle gerçek bir ihtiyacın çözümü olarak sunmaktır.
 
-## 🛠 Kullanılan Örüntüler (Patterns Used)
+## Kullanılan Örüntüler (Patterns Used)
 Projede üç ana kategoride toplam 5 farklı tasarım örüntüsü uygulanmıştır:
 
 ### 1. Creational (Nesne Yaratma)
@@ -19,20 +15,19 @@ Projede üç ana kategoride toplam 5 farklı tasarım örüntüsü uygulanmışt
 * **Strategy:** Bildirimlerin gönderim biçimini (Anlık veya Gecikmeli) çalışma zamanında dinamik olarak değiştirmeyi sağlar.
 * **Observer:** `NotificationPublisher` üzerinden kurulan abonelik sistemiyle, kayıtlı tüm kullanıcılara (Örn: Fatma, Sevil) otomatik duyuru iletilmesini sağlar.
 
-## 📅 Proje Fazları (Phases)
+## Proje Fazları (Phases)
 Ödev, GitHub branch disiplinine uygun olarak şu aşamalardan oluşmaktadır:
 * **Phase 0:** Başlangıç kodu ve tasarım sorunlarının tespiti (PROBLEMS.md).
 * **Phase 1:** Creational örüntü (Factory) uygulaması.
 * **Phase 2:** Structural örüntüler (Adapter & Facade) uygulaması.
 * **Phase 3:** Behavioral örüntüler (Strategy & Observer) ve CI Pipeline kurulumu.
 
-## 📊 Mimari Diyagram
-Aşağıdaki görsel, projenin son halindeki tüm sınıfların ve örüntülerin birbirleriyle olan ilişkisini göstermektedir:
+##  Mimari Diyagram
 
 <img width="1054" height="692" alt="mimari_diyagramı" src="https://github.com/user-attachments/assets/13a2b87b-f30a-480f-8793-7c49f708474d" />
 
 
-## ⚙️ Nasıl Çalıştırılır? (How to Run)
+## Nasıl Çalıştırılır? (How to Run)
 1. Projeyi bilgisayarınıza klonlayın.
 2. `src/com/example/notification` klasöründeki dosyaları Java derleyicisi ile derleyin.
 3. Uygulamanın giriş noktası olan **Main.java** dosyasını çalıştırın.
