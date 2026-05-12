@@ -95,7 +95,7 @@ Bu nedenle daha sade ve okunabilir bir yapı tercih edildi.
 
 # AI Olmadan Bu Faz Ne Kadar Sürerdi?
 
-AI olmadan bu fazın yaklaşık 2-3 kat daha uzun süreceği düşünülmektedir.
+AI olmadan bu fazın yaklaşık 2-3 kat daha uzun süreceği düşünmekteyim.
 
 Özellikle:
 - uygun behavioral pattern seçimi,
@@ -105,4 +105,3 @@ AI olmadan bu fazın yaklaşık 2-3 kat daha uzun süreceği düşünülmektedir
 
 konularında AI önemli ölçüde zaman kazandırmıştır.
 
-Ancak nihai kararlar kullanıcı tarafından verilmiş ve yapı sadeleştirilmiştir.
